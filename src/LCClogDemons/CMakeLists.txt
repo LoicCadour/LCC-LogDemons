@@ -20,9 +20,9 @@ INCLUDE( ${ITK_USE_FILE} )
 
 # Create executable
 
-ADD_LIBRARY(           libLCClogDemons rpiLCClogDemons.cxx )
+ADD_LIBRARY           ( libLCClogDemons rpiLCClogDemons.cxx )
 TARGET_LINK_LIBRARIES ( libLCClogDemons ${ITK_LIBRARIES} )
-SET_TARGET_PROPERTIES ( libLCClogDemons PROPERTIES OUTPUT_NAME "RPILCClogDemons" )
+SET_TARGET_PROPERTIES ( libLCClogDemons PROPERTIES OUTPUT_NAME "libLCClogDemons" )
 
 
 
